@@ -23,7 +23,13 @@ def clean_documents():
     cleaned_docs = []
     
     for doc in documents:
-        cleaned_docs.append(clean_text(doc))
+        
+        cleaned_text = clean_text(doc["text"])
+        
+        cleaned_docs.append({
+            "text": cleaned_text,
+            "source": doc["source"]
+        })
         
     with open(OUTPUT_FILE, "w") as f:
         json.dump(cleaned_docs, f)

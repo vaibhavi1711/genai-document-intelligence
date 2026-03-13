@@ -22,7 +22,10 @@ def load_pdfs():
             for page in reader.pages:
                 text += page.extract_text() + "\n"
 
-            documents.append(text)
+            documents.append({
+                "text": text,
+                "source": file
+            })
 
     with open(OUTPUT_FILE, "w") as f:
         json.dump(documents, f)
