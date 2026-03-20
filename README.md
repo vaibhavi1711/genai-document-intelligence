@@ -10,4 +10,4 @@ Features:
 - FastAPI interface
 
 Tech Stack:
-Python, FAISS, Sentence Transformers, FastAPI, Docker
+Python, RAG, NLP, Sentence Transformers, FAISS, BM25, FastAPI
