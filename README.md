@@ -1,4 +1,4 @@
-# LLM Document Intelligence Pipeline
+# GenAI Document Intelligence System (RAG Pipeline)
 
 This project builds a production-style Generative AI pipeline for document understanding.
 
