@@ -270,13 +270,3 @@ body {
     text-align: justify;
     color: #333;
 }
-    padding: 10px 20px;
-    border: none;
-    background-color: #4CAF50;
-    color: white;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #45a049;
-}
