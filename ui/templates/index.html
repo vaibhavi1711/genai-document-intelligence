@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GenAI Document Intelligence</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>📚 Document AI Assistant</h1>
+        <p class="subtitle">Upload PDFs & ask questions with AI-powered insights</p>
+    </div>
+
+    <div class="upload-box">
+        <div class="upload-content">
+            <i class="fas fa-cloud-upload-alt"></i>
+            <input type="file" id="fileInput" multiple accept=".pdf">
+            <button class="upload-btn" onclick="uploadFiles()">📤 Upload PDFs</button>
+        </div>
+    </div>
+
+    <div id="chat-box"></div>
+
+    <div class="input-box">
+        <input type="text" id="question" placeholder="Ask something about your documents..." onkeypress="if(event.key==='Enter') askQuestion()">
+        <button class="send-btn" onclick="askQuestion()">↳ Send</button>
+    </div>
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
