@@ -409,7 +409,7 @@ If you use this project in research, please cite:
 ```
 @software{genai_doc_intelligence,
   title={GenAI Document Intelligence System},
-  author={Your Name},
+  author={Vaibhavi Rane},
   year={2024},
   url={https://github.com/yourusername/genai-document-intelligence}
 }
@@ -418,5 +418,5 @@ If you use this project in research, please cite:
 ---
 
 **Last Updated**: March 2024  
-**Maintained by**: Your Name  
+**Maintained by**: Vaibhavi Rane  
 **Status**: Active Development ✓
