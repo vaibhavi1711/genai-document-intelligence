@@ -2,7 +2,7 @@
 
 A production-grade Retrieval Augmented Generation (RAG) system that combines uploaded PDFs with Wikipedia data to provide intelligent, multi-source answers with full source attribution.
 
-![Python](https://img.shields.io/badge/python-3.9+-green) ![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-blue) ![License](https://img.shields.io/badge/license-MIT-green)
+![Python](https://img.shields.io/badge/python-3.9+-green) ![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-blue) 
 
 ## Features
 
